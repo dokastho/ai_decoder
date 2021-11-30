@@ -1,0 +1,7 @@
+- caesar cipher decryptor using frequency of letters
+- for each encrypted word, there is a new key. this algorithm will find likely words using a training dataset
+- training dataset consists of two things. lots of normal text, for frequency of words following other words
+- this then finds words in encrypted ones and guesses which ones are correct
+- neural net will score the decoded message for accuracy
+- each generation will randomly select the first or second best guess, and the most accurate ones
+- how can I use a neural net on non training datasets?
